@@ -1,2 +1,2 @@
 # manos-artesanas
-Proyecto Web
+Proyecto
