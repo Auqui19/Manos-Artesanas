@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda | Manos Artesanas</title>
+    <!-- JQUERY -->
+    <script src="javascript/jquery-3.6.0.js"></script>
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <!-- ENLACE CSS -->
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/lightbox.min.css">
+    <!-- SCROLLREVEAL -->
+    <script src="javascript/scrollreveal.js"></script>
+    <!-- FONTS  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <!------ BARRA DE MENU ------>
+    <nav id="navbar" class="nav-menu">
+        <div class="nav-menu2">
+            <div class="logo-text">
+                <div class="logo">
+                    <img src="img/llama.png" alt="">
+                </div>
+                <span>Manos Artesanas</span>
+            </div>
+            <div>
+                <ul>
+                    <li><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="../Nosotros-ManosArtesanas/nosotros.html">Nosotros</a></li>
+                    <li><a class="tienda" href="index.html">Tienda</a></li>
+                    <li><a href="../Blog-ManosArtesanas/index.html">Blog</a></li>
+                    <li><a href="#">Contacto</a></li>
+                    <li><a href="#">Ubicanos</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!------ TIENDA ------>
+    <div class="main-container">
+        <div class="banner">
+            <h1>Tienda</h1>
+            <div id="tienda-id"></div>
+        </div>
+        <div class="tienda-list">
+            <div class="categoria">
+                <h2>PRODUCTOS</h2>
+                <div class="barra"></div>
+                <a href="#tienda-id" class="category-item" category="all">Todo</a>
+                <a href="#tienda-id" class="category-item" category="bolsos">Bolsos</a>
+                <a href="#tienda-id" class="category-item" category="ponchos">Ponchos</a>
+                <a href="#tienda-id" class="category-item" category="chalinas">Chalinas</a>
+                <a href="#tienda-id" class="category-item" category="telares">Telares</a>
+                <div class="buscar">
+                    <h3>Buscar</h3>
+                    <div class="barra"></div>
+                    <div class="lupa">
+                        <input type="text" placeholder="Buscar...">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="productos">
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho1.jpg" data-lightbox="roadtrip" data-title="Poncho blanco 100% alpaca">
+                        <img src="img/ponchos/poncho1.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho blanco 100% alpaca</span>
+                    <h4>S/.95</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho2.jpg" data-lightbox="roadtrip" data-title="Poncho blanco 100% alpaca">
+                        <img src="img/ponchos/poncho2.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho blanco 100% alpaca</span>
+                    <h4>S/.95 </h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho3.jpg" data-lightbox="roadtrip" data-title="Poncho Negro con Bordes Blanco">
+                        <img src="img/ponchos/poncho3.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho con Bordes Blanco</span>
+                    <h4>S/.80</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho4.jpg" data-lightbox="roadtrip" data-title="Poncho Rojo + 1 chalina">
+                        <img src="img/ponchos/poncho4.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho Rojo + 1 chalina</span>
+                    <h4>S/.110</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho5.jpg" data-lightbox="roadtrip" data-title="Poncho Mujer Color Piel">
+                        <img src="img/ponchos/poncho5.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho Mujer Color Piel</span>
+                    <h4>S/.85</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho6.jpg" data-lightbox="roadtrip" data-title="Poncho Gris 100% Alpaca">
+                        <img src="img/ponchos/poncho6.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho Gris 100% Alpaca</span>
+                    <h4>S/.95</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho7.jpg" data-lightbox="roadtrip" data-title="Poncho Con Rayas">
+                        <img src="img/ponchos/poncho7.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho Con Rayas</span>
+                    <h4>S/.80</h4>
+                </div>
+                <div class="producto-lista" category="ponchos">
+                    <a href="img/ponchos/poncho12.jpg" data-lightbox="roadtrip" data-title="Poncho Azul con capucha">
+                        <img src="img/ponchos/poncho12.jpg" alt="poncho">
+                    </a>
+                    <span>Poncho Azul con capucha</span>
+                    <h4>S/.120</h4>
+                </div>
+                <!-- CATEGORIA DE BOLSOS-->
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso1.png" data-lightbox="roadtrip" data-title="Bolso con dibujo de Libélula">
+                        <img src="img/bolsos/bolso1.png" alt="poncho">
+                    </a>
+                    <span>Bolso con dibujo de Libélula</span>
+                    <h4>S/.95</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso2.png" data-lightbox="roadtrip" data-title="Bolso clasico Naranja">
+                        <img src="img/bolsos/bolso2.png" alt="poncho">
+                    </a>
+                    <span>Bolso clasico Naranja</span>
+                    <h4>S/.90</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso3.png" data-lightbox="roadtrip" data-title="Bolso Artesanal Rombos">
+                        <img src="img/bolsos/bolso3.png" alt="poncho">
+                    </a>
+                    <span>Bolso Artesanal Rombos</span>
+                    <h4>S/.80</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso4.png" data-lightbox="roadtrip" data-title="Bolso Artesanal Hexagonal">
+                        <img src="img/bolsos/bolso4.png" alt="poncho">
+                    </a>
+                    <span>Bolso Artesanal Hexagonal</span>
+                    <h4>S/.80</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso5.png" data-lightbox="roadtrip" data-title="Bolso Africanco">
+                        <img src="img/bolsos/bolso5.png" alt="poncho">
+                    </a>
+                    <span>Bolso Africanco</span>
+                    <h4>S/.75</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso6.png" data-lightbox="roadtrip" data-title="Bolso Africano con Flores">
+                        <img src="img/bolsos/bolso6.png" alt="poncho">
+                    </a>
+                    <span>Bolso Africano con Flores</span>
+                    <h4>S/.75</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso7.png" data-lightbox="roadtrip" data-title="Bolso Africano">
+                        <img src="img/bolsos/bolso7.png" alt="poncho">
+                    </a>
+                    <span>Bolso Africano</span>
+                    <h4>S/.75</h4>
+                </div>
+                <div class="producto-lista" category="bolsos">
+                    <a href="img/bolsos/bolso8.png" data-lightbox="roadtrip" data-title="Bolso Africano Verde">
+                        <img src="img/bolsos/bolso8.png" alt="poncho">
+                    </a>
+                    <span>Bolso Africano Verde</span>
+                    <h4>S/.75</h4>
+                </div>
+                <!-- CATEGORIA DE CHALINAS -->
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina1.png" data-lightbox="roadtrip" data-title="Chalina Azul 100% Alpaca">
+                        <img src="img/chalinas/chalina1.png" alt="chalina">
+                    </a>
+                    <span>Chalina Azul 100% Alpaca</span>
+                    <h4>S/.45</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina2.png" data-lightbox="roadtrip" data-title="Chalina Negra 100%Alpaca">
+                        <img src="img/chalinas/chalina2.png" alt="chalina">
+                    </a>
+                    <span>Chalina Negra 100%Alpaca</span>
+                    <h4>S/.45</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina3.png" data-lightbox="roadtrip" data-title="Chalina Roja">
+                        <img src="img/chalinas/chalina3.png" alt="chalina">
+                    </a>
+                    <span>Chalina Roja</span>
+                    <h4>S/.40</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina4.png" data-lightbox="roadtrip" data-title="Chalina para Mujer">
+                        <img src="img/chalinas/chalina4.png" alt="chalina">
+                    </a>
+                    <span>Chalina para Mujer</span>
+                    <h4>S/.45</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina5.png" data-lightbox="roadtrip" data-title="Chalina con rayas cuadradas">
+                        <img src="img/chalinas/chalina5.png" alt="chalina">
+                    </a>
+                    <span>Chalina con rayas cuadradas</span>
+                    <h4>S/.45</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina6.png" data-lightbox="roadtrip" data-title="Chalina celeste 100%Alpaca">
+                        <img src="img/chalinas/chalina6.png" alt="chalina">
+                    </a>
+                    <span>Chalina celeste 100%Alpaca</span>
+                    <h4>S/.45 </h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina7.png" data-lightbox="roadtrip" data-title="Chalina Rosa para Mujer">
+                        <img src="img/chalinas/chalina7.png" alt="chalina">
+                    </a>
+                    <span>Chalina Rosa para Mujer</span>
+                    <h4>S/.45</h4>
+                </div>
+                <div class="producto-lista" category="chalinas">
+                    <a href="img/chalinas/chalina8.png" data-lightbox="roadtrip" data-title="Chalina para Mujer">
+                        <img src="img/chalinas/chalina8.png" alt="chalina">
+                    </a>
+                    <span>Chalina para Mujer</span>
+                    <h4>S/.95 </h4>
+                </div>
+            </div>
+        </di>
+
+    </div>
+    <!------ FOOTER ------>
+    <footer class="scroll-footer">
+        <div class="final">
+            <div class="normas">
+                <ul>
+                    <li><a href="#">Información legal</a></li>
+                    <li><a href="#">Política y Privacidad</a></li>
+                    <li><a href="#">Política Cookies</a></li>
+                    <li><a href="#">Política de Calidad</a></li>
+                </ul>
+            </div>
+            <div class="logos">
+                <div>
+                    <span>Manos Artesanas</span>
+                </div>
+                <div class="copy"><p>© Manos Artesanas | Diseñadores web: Alonso - Masiel - Josue</p></div>
+                <span class="barra"></span>
+                <div class="icons">
+                    <a href=""><i class="fa-brands fa-facebook-f fb"></i></a>
+                    <a href=""><i class="fa-solid fa-envelope mail"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter twit"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram ig"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp wsp"></i></a>
+                </div>
+            </div>
+            <div class="lista">
+                <ul>
+                    <li><a href="../inicio.html">Inicio</a></li>
+                    <li><a href="../Blog-ManosArtesanas/index.html">Blog</a></li>
+                    <li><a href="#">Contactos</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+
+    <!------ TIENDA ------>
+    <script src="javascript/main.js"></script>
+    <!------ IMAGENES LIGHTBOX ------>
+    <script src="javascript/lightbox-plus-jquery.min.js"></script>
+    <script src="javascript/lightbox.min.js"></script>
+    <!------ VARSCROLL ------>
+    <script src="javascript/varscroll.js"></script>
+</body>
+</html>
